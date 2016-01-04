@@ -1,0 +1,68 @@
+/*
+td {
+     width: 10px;
+     border:1pt solid black;
+     text-align: center;
+     vertical-align: middle;
+}
+
+table.fixed {table-layout:fixed; width:200px; height:200px;}/*Setting the table width is important!*/
+table.fixed td {overflow:hidden;}/*Hide text outside the cell.
+table.fixed td:nth-of-type(1) {width:20px;}/*Setting the width of column 1.
+table.fixed td:nth-of-type(2) {width:30px;}/*Setting the width of column 2.
+table.fixed td:nth-of-type(3) {width:40px;}/*Setting the width of column 3.
+
+*/
+
+td:hover {background:#53f0f0}
+
+
+
+td, th {
+  position: relative;
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background: lightblue;
+  border-color: white;
+  text-transform: uppercase;
+}
+
+.diag{
+  background-color: rgb(245, 255, 125);
+}
+
+#arrow-left{
+  left: -10px;
+  position: absolute;
+}
+
+#arrow-up{
+  right: 20px;
+  top: -20px;
+  position: absolute;
+  -ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+transform: rotate(90deg);
+}
+
+#arrow-diag{
+  font-weight: bold;
+  left: -10px;
+  top: -20px;
+  position: absolute;
+  -ms-transform: rotate(45deg); /* IE 9 */
+-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+transform: rotate(45deg);
+}
+
+.optimal{
+  background-color: rgb(68, 181, 44);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

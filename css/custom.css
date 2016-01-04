@@ -1,0 +1,62 @@
+#top{
+  height: 20%;
+  width: auto;
+  overflow: auto;
+}
+
+#top-r{
+float: right;
+width: 40%;
+}
+
+#top-l{
+float:left;
+width: 60%;
+}
+
+input {
+  text-transform: uppercase;
+}
+
+#mid{
+  height: 60%;
+  width: auto;
+}
+
+#matrix{
+  height: 100%;
+}
+
+#midleft{
+  width: 60%;
+  float:left;
+}
+
+#midright{
+  float: right;
+}
+
+
+#pseudocode{
+  height: 50%;
+
+}
+
+.highlight{
+  background-color:#FFFF00;
+}
+
+#stepper{
+  height: 50%;
+}
+
+#bottom{
+  clear:both;
+  height: 20%;
+  width: auto;
+}
+
+#result{
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
